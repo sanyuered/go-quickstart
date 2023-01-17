@@ -1,3 +1,5 @@
+[Chinese Version](README_CN.md)
+
 # Go Language Transfer Learning
 
 ## Preface
