@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Go Language Quick Start</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/vue.css" title="vue">
+  <link rel="stylesheet" href="css/dark.css" title="dark" disabled>
+  <style>
+    .app-nav li{cursor: default;}
+    .demo-theme-preview a{cursor: pointer;}
+    :root {
+      --navbar-menu-link-color--hover:#0b87da;
+      --navbar-menu-link-color--active:#0b87da;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="app-nav no-badge">
+    <ul>
+      <li>
+        <span data-text="language"></span>
+        <ul>
+          <li><a href="#/" data-text="english"></a></li>
+          <li><a href="#/zh-cn/" data-text="Chinese"></a></li>
+        </ul>
+      </li>
+      <li>
+        <span data-text="theme"></span>
+        <ul class="demo-theme-preview">
+          <li><a data-theme="vue" class="active" data-text="light_theme"></a></li>
+          <li><a data-theme="dark" data-text="dark_theme"></a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div id="app"></div>
+  <script src="js/app.js"></script>
+  <script src="js/docsify.min.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/prism-go.min.js"></script>
+</body>
+
+</html>
