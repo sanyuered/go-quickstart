@@ -10,39 +10,24 @@
   <link rel="stylesheet" href="css/vue.css" title="vue">
   <link rel="stylesheet" href="css/dark.css" title="dark" disabled>
   <style>
-    .app-nav li{cursor: default;}
-    .demo-theme-preview a{cursor: pointer;}
+    .app-nav li {
+      cursor: default;
+    }
+    .demo-theme-preview a {
+      cursor: pointer;
+    }
     :root {
-      --navbar-menu-link-color--hover:#0b87da;
-      --navbar-menu-link-color--active:#0b87da;
+      --navbar-menu-link-color--hover: #0b87da;
+      --navbar-menu-link-color--active: #0b87da;
     }
   </style>
 </head>
 
 <body>
-  <nav class="app-nav no-badge">
-    <ul>
-      <li>
-        <span data-text="language"></span>
-        <ul>
-          <li><a href="#/" data-text="english"></a></li>
-          <li><a href="#/zh-cn/" data-text="Chinese"></a></li>
-        </ul>
-      </li>
-      <li>
-        <span data-text="theme"></span>
-        <ul class="demo-theme-preview">
-          <li><a data-theme="vue" class="active" data-text="light_theme"></a></li>
-          <li><a data-theme="dark" data-text="dark_theme"></a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
   <div id="app"></div>
   <script src="js/app.js"></script>
   <script src="js/docsify.min.js"></script>
-  <script src="js/search.js"></script>
-  <script src="js/prism-go.min.js"></script>
+  <script src="js/search.min.js"></script>
 </body>
 
 </html>

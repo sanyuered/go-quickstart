@@ -172,7 +172,7 @@ for index, item := range x {
 
 ## 3. 结构体和函数
 
-### 3.1函数
+### 3.1 函数
 
 ```go
 func myFunc(a int, b int) int{
